@@ -1,2 +1,1 @@
-# python-challenge
-GW data science homework
+New repository for HW3 files
