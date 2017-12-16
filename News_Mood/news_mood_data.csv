@@ -1,0 +1,951 @@
+,0
+0,"    Compound  Negative  Neutral  Positive Source  \
+0     0.0000     1.000    0.000     0.000    NYT   
+1    -0.3595     0.898    0.102     0.000    NYT   
+2     0.6239     0.683    0.076     0.241    NYT   
+3     0.8316     0.642    0.000     0.358    NYT   
+4    -0.4939     0.842    0.158     0.000    NYT   
+5     0.0000     1.000    0.000     0.000    NYT   
+6     0.2023     0.878    0.000     0.122    NYT   
+7     0.4404     0.861    0.000     0.139    NYT   
+8    -0.1154     0.921    0.079     0.000    NYT   
+9     0.7345     0.733    0.000     0.267    NYT   
+10    0.1027     0.920    0.000     0.080    NYT   
+11    0.4019     0.748    0.000     0.252    NYT   
+12    0.4588     0.857    0.000     0.143    NYT   
+13   -0.4215     0.763    0.237     0.000    NYT   
+14    0.8720     0.632    0.000     0.368    NYT   
+15    0.4466     0.853    0.000     0.147    NYT   
+16    0.0000     1.000    0.000     0.000    NYT   
+17   -0.5574     0.796    0.204     0.000    NYT   
+18    0.0000     1.000    0.000     0.000    NYT   
+19    0.0000     1.000    0.000     0.000    NYT   
+20    0.4588     0.812    0.000     0.188    NYT   
+21    0.0000     1.000    0.000     0.000    NYT   
+22    0.3182     0.738    0.107     0.155    NYT   
+23   -0.3400     0.870    0.130     0.000    NYT   
+24    0.5994     0.843    0.000     0.157    NYT   
+25    0.8225     0.714    0.000     0.286    NYT   
+26    0.7964     0.728    0.000     0.272    NYT   
+27    0.0000     1.000    0.000     0.000    NYT   
+28    0.0000     1.000    0.000     0.000    NYT   
+29   -0.3400     0.806    0.194     0.000    NYT   
+..       ...       ...      ...       ...    ...   
+70    0.6597     0.779    0.000     0.221    NYT   
+71    0.0000     1.000    0.000     0.000    NYT   
+72    0.6114     0.750    0.000     0.250    NYT   
+73    0.7901     0.731    0.000     0.269    NYT   
+74    0.0000     1.000    0.000     0.000    NYT   
+75    0.0000     1.000    0.000     0.000    NYT   
+76    0.8777     0.581    0.000     0.419    NYT   
+77    0.9455     0.567    0.000     0.433    NYT   
+78    0.0000     1.000    0.000     0.000    NYT   
+79    0.0000     1.000    0.000     0.000    NYT   
+80   -0.3182     0.913    0.087     0.000    NYT   
+81    0.5719     0.802    0.000     0.198    NYT   
+82   -0.2960     0.879    0.121     0.000    NYT   
+83   -0.6486     0.823    0.177     0.000    NYT   
+84    0.5267     0.476    0.161     0.363    NYT   
+85    0.9118     0.580    0.000     0.420    NYT   
+86    0.0000     1.000    0.000     0.000    NYT   
+87   -0.4137     0.731    0.194     0.075    NYT   
+88   -0.5719     0.558    0.300     0.142    NYT   
+89    0.0000     1.000    0.000     0.000    NYT   
+90    0.0000     1.000    0.000     0.000    NYT   
+91   -0.0062     0.775    0.113     0.112    NYT   
+92    0.4939     0.878    0.000     0.122    NYT   
+93    0.5410     0.830    0.000     0.170    NYT   
+94    0.3182     0.909    0.000     0.091    NYT   
+95    0.0000     1.000    0.000     0.000    NYT   
+96    0.0000     1.000    0.000     0.000    NYT   
+97    0.0000     1.000    0.000     0.000    NYT   
+98    0.6369     0.741    0.000     0.259    NYT   
+99    0.0000     1.000    0.000     0.000    NYT   
+
+                        Tweet Date  \
+0   Fri Dec 15 23:14:58 +0000 2017   
+1   Fri Dec 15 23:14:50 +0000 2017   
+2   Fri Dec 15 23:14:41 +0000 2017   
+3   Fri Dec 15 23:14:34 +0000 2017   
+4   Fri Dec 15 23:14:30 +0000 2017   
+5   Fri Dec 15 19:00:01 +0000 2017   
+6   Fri Dec 15 18:30:17 +0000 2017   
+7   Fri Dec 15 18:00:06 +0000 2017   
+8   Fri Dec 15 17:30:01 +0000 2017   
+9   Fri Dec 15 17:03:51 +0000 2017   
+10  Fri Dec 15 17:00:09 +0000 2017   
+11  Fri Dec 15 16:45:06 +0000 2017   
+12  Fri Dec 15 16:30:05 +0000 2017   
+13  Fri Dec 15 14:56:12 +0000 2017   
+14  Fri Dec 15 14:34:04 +0000 2017   
+15  Fri Dec 15 14:34:02 +0000 2017   
+16  Fri Dec 15 14:00:09 +0000 2017   
+17  Fri Dec 15 13:32:45 +0000 2017   
+18  Fri Dec 15 13:30:02 +0000 2017   
+19  Fri Dec 15 13:17:03 +0000 2017   
+20  Fri Dec 15 13:00:07 +0000 2017   
+21  Fri Dec 15 12:43:54 +0000 2017   
+22  Fri Dec 15 12:30:05 +0000 2017   
+23  Fri Dec 15 12:00:08 +0000 2017   
+24  Fri Dec 15 11:44:00 +0000 2017   
+25  Fri Dec 15 10:03:30 +0000 2017   
+26  Fri Dec 15 09:58:24 +0000 2017   
+27  Fri Dec 15 09:57:59 +0000 2017   
+28  Fri Dec 15 09:57:30 +0000 2017   
+29  Fri Dec 15 09:00:07 +0000 2017   
+..                             ...   
+70  Wed Dec 13 13:30:05 +0000 2017   
+71  Wed Dec 13 13:14:21 +0000 2017   
+72  Wed Dec 13 13:11:33 +0000 2017   
+73  Wed Dec 13 13:00:02 +0000 2017   
+74  Wed Dec 13 12:30:02 +0000 2017   
+75  Wed Dec 13 12:27:30 +0000 2017   
+76  Wed Dec 13 12:21:18 +0000 2017   
+77  Wed Dec 13 12:09:04 +0000 2017   
+78  Wed Dec 13 12:00:08 +0000 2017   
+79  Wed Dec 13 11:52:55 +0000 2017   
+80  Wed Dec 13 11:42:41 +0000 2017   
+81  Wed Dec 13 10:39:21 +0000 2017   
+82  Wed Dec 13 10:18:11 +0000 2017   
+83  Wed Dec 13 09:00:05 +0000 2017   
+84  Wed Dec 13 08:40:01 +0000 2017   
+85  Wed Dec 13 08:20:03 +0000 2017   
+86  Wed Dec 13 08:00:04 +0000 2017   
+87  Wed Dec 13 07:38:04 +0000 2017   
+88  Tue Dec 12 20:30:05 +0000 2017   
+89  Tue Dec 12 20:00:09 +0000 2017   
+90  Tue Dec 12 19:30:05 +0000 2017   
+91  Tue Dec 12 19:19:59 +0000 2017   
+92  Tue Dec 12 19:19:47 +0000 2017   
+93  Tue Dec 12 19:19:14 +0000 2017   
+94  Tue Dec 12 19:19:06 +0000 2017   
+95  Tue Dec 12 19:18:57 +0000 2017   
+96  Tue Dec 12 19:18:27 +0000 2017   
+97  Tue Dec 12 19:17:56 +0000 2017   
+98  Tue Dec 12 19:16:42 +0000 2017   
+99  Tue Dec 12 19:00:03 +0000 2017   
+
+                                           Tweet Text  Tweets Ago  
+0   RT @BBCFOUR: Only @GeorgeMichael could pull of...           0  
+1   RT @CBeebiesHQ: ??THE SNOW QUEEN HAS LEFT! ? \...           1  
+2   RT @bbcstrictly: There's been laughter, there ...           2  
+3   RT @BBCSpringwatch: The funniest wildlife phot...           3  
+4   RT @bbceastenders: This Christmas things are s...           4  
+5   A clairvoyant cat? ? Or a turtle in the know? ...           5  
+6   ? @KermodeMovie breaks down his top 10 favouri...           6  
+7   Fragrant, spiced and with a light golden crumb...           7  
+8   ? 'Now I know that can sound confusing, but th...           8  
+9   RT @BBCOne: Get ready for one winning weekend ...           9  
+10  Have we finally reached Peak Eyebrow? ?\n\nThi...          10  
+11  Heading to the office Christmas party like... ...          11  
+12  Tonight, four modern confectioners recreate th...          12  
+13  RT @BBCTwo: Two Hollywood superstars. One bitt...          13  
+14  A brave village girl tries to rescue her frien...          14  
+15  RT @bbcstrictly: ? FINAL TRAINING ALERT PART 2...          15  
+16  Colour. ? Light. ? Composition. ?\n??? Here's ...          16  
+17  RT @BBCTwo: How will this series of #PeakyBlin...          17  
+18  Cat Deely takes @U2's The Edge &amp; Adam Clay...          18  
+19  Prince Harry and Meghan Markle's wedding to be...          19  
+20  Explore the Twelfth Doctor's TARDIS with this ...          20  
+21  RT @bbcpress: You just wouldn't let it lie! Vi...          21  
+22  Clown hooves &amp; furry noses - their role as...          22  
+23  Snow, floods &amp; fire. ????\nHere's what the...          23  
+24  RT @BBCOne: A coming of age story loved by gen...          24  
+25  RT @BBCSport: Congratulations Roger Federer ?\...          25  
+26  RT @BBCR1: Nobody does it better than @Eminem ...          26  
+27  RT @bbcmusic: ""I think I threw a drumkit into ...          27  
+28  RT @bbcpress: #DoctorWho fans can pilot the TA...          28  
+29  ??? Botanical exploits: How British plant hunt...          29  
+..                                                ...         ...  
+70  Being friends with George Clooney is probably ...          70  
+71  RT @bbcthree: PLOT TWIST. #TheApprentice https...          71  
+72  RT @bbccomedy: French and Saunders celebrate 3...          72  
+73  'It was brilliant to sweep in to a room and sa...          73  
+74  This woman is showing people how to turn their...          74  
+75  RT @BBCR1: ?? @SamSmithWorld got everyone in t...          75  
+76  RT @BBCR1: How stunning is this? \n\n@SamSmith...          76  
+77  RT @BBCR1: THAT VOICE ?\n\nSo good to have @Sa...          77  
+78  Late Junction has spent the year traversing th...          78  
+79  RT @bbcmusic: ? @Harry_Styles stepped in to ho...          79  
+80  RT @BBCTwo: In 2012, Daniel lost both his legs...          80  
+81  French and Saunders celebrate 300 years in sho...          81  
+82  'Rousing.' 'Thrilling.' 'Addictively bold.'\nJ...          82  
+83  Coronary heart disease is the biggest killer i...          83  
+84  Steph's a cheerleading world champion. She's a...          84  
+85  There's great pleasure in realising that total...          85  
+86  The 'Godfather of Coral' has identified more t...          86  
+87  Feelings of stress and anxiety disorders are e...          87  
+88  'I’m talking about my rape to encourage other ...          88  
+89  Overfishing and changing sea temperatures are ...          89  
+90  'The Spice Girls only had one black member and...          90  
+91  RT @bbccomedy: When the help's so helpful, but...          91  
+92  RT @bbcstories: “I’m being led by the hand by ...          92  
+93  RT @BBCOne: “It’s gold.” #TheAWord cast explai...          93  
+94  RT @TWBBC: If you're in Glasgow Wednesday nigh...          94  
+95  RT @BBCScotland: ""IT'S THE KETTLE!"" ?\n\n#Scot...          95  
+96  RT @BBCWomansHour: Neuroscientist @sophiescott...          96  
+97  RT @BBC6Music: ?? ?? Scissors at the ready... ...          97  
+98  RT @BBCSpringwatch: 10 glorious photos of Brit...          98  
+99  In the 3rd episode of @TWBBC Live, we explore ...          99  
+
+[100 rows x 8 columns]"
+1,"    Compound  Negative  Neutral  Positive Source  \
+0     0.5423     0.857    0.000     0.143    NYT   
+1     0.6114     0.800    0.000     0.200    NYT   
+2     0.5106     0.798    0.000     0.202    NYT   
+3     0.0000     1.000    0.000     0.000    NYT   
+4     0.5093     0.798    0.000     0.202    NYT   
+5     0.0000     1.000    0.000     0.000    NYT   
+6     0.5562     0.854    0.000     0.146    NYT   
+7     0.5550     0.826    0.000     0.174    NYT   
+8     0.8832     0.636    0.000     0.364    NYT   
+9     0.4939     0.703    0.086     0.211    NYT   
+10   -0.2263     0.917    0.083     0.000    NYT   
+11   -0.2263     0.913    0.087     0.000    NYT   
+12    0.0772     0.936    0.000     0.064    NYT   
+13    0.0000     1.000    0.000     0.000    NYT   
+14    0.5754     0.742    0.070     0.189    NYT   
+15    0.6476     0.791    0.000     0.209    NYT   
+16    0.8126     0.697    0.000     0.303    NYT   
+17    0.7777     0.746    0.000     0.254    NYT   
+18    0.5423     0.863    0.000     0.137    NYT   
+19    0.3182     0.874    0.000     0.126    NYT   
+20    0.1511     0.910    0.000     0.090    NYT   
+21    0.4199     0.883    0.000     0.117    NYT   
+22    0.5106     0.837    0.000     0.163    NYT   
+23    0.0000     1.000    0.000     0.000    NYT   
+24    0.3612     0.894    0.000     0.106    NYT   
+25    0.9217     0.496    0.000     0.504    NYT   
+26    0.5213     0.813    0.000     0.187    NYT   
+27   -0.5655     0.823    0.177     0.000    NYT   
+28    0.9466     0.328    0.000     0.672    NYT   
+29    0.5994     0.719    0.000     0.281    NYT   
+..       ...       ...      ...       ...    ...   
+70    0.3612     0.865    0.000     0.135    NYT   
+71    0.0000     1.000    0.000     0.000    NYT   
+72   -0.3595     0.872    0.128     0.000    NYT   
+73    0.6239     0.550    0.000     0.450    NYT   
+74    0.0000     1.000    0.000     0.000    NYT   
+75    0.5542     0.796    0.000     0.204    NYT   
+76    0.0000     1.000    0.000     0.000    NYT   
+77    0.0000     1.000    0.000     0.000    NYT   
+78    0.0000     1.000    0.000     0.000    NYT   
+79    0.7482     0.566    0.000     0.434    NYT   
+80    0.8513     0.458    0.000     0.542    NYT   
+81    0.7232     0.698    0.000     0.302    NYT   
+82    0.0000     1.000    0.000     0.000    NYT   
+83    0.8979     0.557    0.049     0.394    NYT   
+84    0.0000     1.000    0.000     0.000    NYT   
+85    0.6988     0.548    0.000     0.452    NYT   
+86    0.0000     1.000    0.000     0.000    NYT   
+87    0.7067     0.754    0.000     0.246    NYT   
+88    0.0000     1.000    0.000     0.000    NYT   
+89    0.0000     1.000    0.000     0.000    NYT   
+90    0.6514     0.842    0.000     0.158    NYT   
+91    0.1139     0.936    0.000     0.064    NYT   
+92    0.6825     0.772    0.000     0.228    NYT   
+93    0.5826     0.848    0.000     0.152    NYT   
+94    0.0000     1.000    0.000     0.000    NYT   
+95    0.0000     1.000    0.000     0.000    NYT   
+96    0.0000     1.000    0.000     0.000    NYT   
+97    0.0000     1.000    0.000     0.000    NYT   
+98    0.4559     0.858    0.000     0.142    NYT   
+99    0.0000     1.000    0.000     0.000    NYT   
+
+                        Tweet Date  \
+0   Fri Dec 15 20:23:58 +0000 2017   
+1   Fri Dec 15 14:43:08 +0000 2017   
+2   Thu Dec 14 19:13:25 +0000 2017   
+3   Wed Dec 13 23:20:01 +0000 2017   
+4   Wed Dec 13 18:56:58 +0000 2017   
+5   Tue Dec 12 20:34:16 +0000 2017   
+6   Tue Dec 12 19:04:59 +0000 2017   
+7   Tue Dec 12 17:13:52 +0000 2017   
+8   Mon Dec 11 21:29:33 +0000 2017   
+9   Mon Dec 11 19:05:21 +0000 2017   
+10  Mon Dec 11 00:26:50 +0000 2017   
+11  Mon Dec 11 00:25:54 +0000 2017   
+12  Sun Dec 10 22:49:02 +0000 2017   
+13  Sun Dec 10 22:48:46 +0000 2017   
+14  Sat Dec 09 18:24:37 +0000 2017   
+15  Sat Dec 09 01:11:51 +0000 2017   
+16  Fri Dec 08 23:35:41 +0000 2017   
+17  Thu Dec 07 18:23:03 +0000 2017   
+18  Thu Dec 07 12:07:06 +0000 2017   
+19  Wed Dec 06 17:32:28 +0000 2017   
+20  Tue Dec 05 19:21:31 +0000 2017   
+21  Tue Dec 05 19:14:00 +0000 2017   
+22  Tue Dec 05 00:54:16 +0000 2017   
+23  Tue Dec 05 00:03:06 +0000 2017   
+24  Mon Dec 04 20:52:31 +0000 2017   
+25  Mon Dec 04 19:22:07 +0000 2017   
+26  Mon Dec 04 07:14:06 +0000 2017   
+27  Mon Dec 04 03:02:00 +0000 2017   
+28  Mon Dec 04 03:01:09 +0000 2017   
+29  Mon Dec 04 02:51:35 +0000 2017   
+..                             ...   
+70  Thu Nov 30 15:00:05 +0000 2017   
+71  Thu Nov 30 12:00:03 +0000 2017   
+72  Thu Nov 30 07:52:09 +0000 2017   
+73  Thu Nov 30 04:09:55 +0000 2017   
+74  Thu Nov 30 04:00:27 +0000 2017   
+75  Thu Nov 30 03:59:09 +0000 2017   
+76  Thu Nov 30 03:55:37 +0000 2017   
+77  Thu Nov 30 03:51:38 +0000 2017   
+78  Thu Nov 30 03:44:54 +0000 2017   
+79  Thu Nov 30 03:37:13 +0000 2017   
+80  Thu Nov 30 03:35:13 +0000 2017   
+81  Thu Nov 30 03:33:32 +0000 2017   
+82  Thu Nov 30 03:23:03 +0000 2017   
+83  Thu Nov 30 03:11:31 +0000 2017   
+84  Thu Nov 30 03:09:54 +0000 2017   
+85  Thu Nov 30 03:07:20 +0000 2017   
+86  Thu Nov 30 03:06:38 +0000 2017   
+87  Thu Nov 30 03:03:15 +0000 2017   
+88  Thu Nov 30 03:02:34 +0000 2017   
+89  Thu Nov 30 02:59:59 +0000 2017   
+90  Thu Nov 30 02:45:03 +0000 2017   
+91  Thu Nov 30 00:06:05 +0000 2017   
+92  Wed Nov 29 23:20:13 +0000 2017   
+93  Wed Nov 29 23:15:24 +0000 2017   
+94  Wed Nov 29 23:14:57 +0000 2017   
+95  Wed Nov 29 23:13:40 +0000 2017   
+96  Wed Nov 29 22:34:56 +0000 2017   
+97  Wed Nov 29 21:07:33 +0000 2017   
+98  Wed Nov 29 20:41:13 +0000 2017   
+99  Wed Nov 29 15:00:07 +0000 2017   
+
+                                           Tweet Text  Tweets Ago  
+0   Do you know all the nominees for Record Of The...           0  
+1   'Elton John: I'm Still Standing - A GRAMMY® Sa...           1  
+2   Get to know 2017 Kennedy Center honorees @LLCo...           2  
+3   So close, yet so far away. Which #Survivor Cas...           3  
+4   RT @BandB_CBS: Take a walk down #BoldandBeauti...           4  
+5   RT @thegoodfight: Court is back in session. Se...           5  
+6   Only two weeks until The 40th Annual Kennedy C...           6  
+7   Mark your calendars! The 53rd Academy Of Count...           7  
+8   The search is on to find the pro football play...           8  
+9   RT @MadamSecretary: No D.C. holiday party is c...           9  
+10  Due to NFL overrun, CBS is delayed 8 mins in t...          10  
+11  Due to NFL overrun CBS is delayed 7 mins in th...          11  
+12  RT @NoActivityCBS: If you want the intel, you ...          12  
+13  RT @startrekcbs: .@albinokid and @wcruz73 are ...          13  
+14  Don’t miss America’s Game! Stream the Army-Nav...          14  
+15  There's still time before we have to say so lo...          15  
+16  RT @bigbangtheory: It's the biggest best frien...          16  
+17  RT @AmazingRaceCBS: Presenting... the 30th cas...          17  
+18  Do you know all the nominees for Song Of The Y...          18  
+19  A new Twilight Zone original series is coming ...          19  
+20  RT @SuperiorDonuts: You'll want to check this ...          20  
+21  RT @YoungSheldon: Wondering what it's like beh...          21  
+22  The Kennedy Center Honors recognizes the lifet...          22  
+23  RT @YoungSheldon: There's something @elonmusk ...          23  
+24  Just like old times, Carol Burnett bumps up th...          24  
+25  Star comedian @JimCarrey gets emotional when h...          25  
+26  Take a trip down memory lane with Carol Burnet...          26  
+27  RT @JLawlorNY: So, ok...maybe I'm crying at at...          27  
+28  RT @junerenee: A true classic and favorite!! L...          28  
+29  RT if you’ve loved reliving these classic mome...          29  
+..                                                ...         ...  
+70  Watch #BrunoMars perform ""That's What I Like"" ...          70  
+71  Watch #BrunoMars perform ""24K Magic"" in Bruno ...          71  
+72  Missed Bruno Mars: 24K Magic Live at the Apoll...          72  
+73     RT @CWatkinsTV: That. Was. Amazing! #BrunoMars          73  
+74  The stage is ?? #BrunoMars https://t.co/nykrDH...          74  
+75  RT @anitakearney65: I could watch this all nig...          75  
+76  Everybody put your hands up! #BrunoMars https:...          76  
+77  RT @Sara_nurse: My 2yr old niece heard @BrunoM...          77  
+78  RT @AllieNY86: His voice is mesmerizing \n#Bru...          78  
+79  RT @BrunoMars: We love you MARY!!!! ?? #Brunos...          79  
+80  RT @RDMichelleLNK: Loving a dose of #BrunoMars...          80  
+81  We’re only halfway into the show. Get ready fo...          81  
+82  When #BrunoMars tells you to pick up the phone...          82  
+83  RT @MargoSlade: Best way to relax after a hard...          83  
+84  RT @Tiffany48184: Now that's how you open up a...          84  
+85  RT if you’re ready to party with #BrunoMars!! ...          85  
+86  RT @BrunoMars: POP POP!!?? everyone tweet #Bru...          86  
+87  RT @Queentassia14: Bruno Mars Live at the Apol...          87  
+88                    RT @asbstar30: BRUNO #BrunoMars          88  
+89  Get on your feet, and prepare to dance. #Bruno...          89  
+90  Pop pop, it's showtime! Bruno Mars: 24K Magic ...          90  
+91  Calling all Bruno Mars' lovelies... don't miss...          91  
+92  You'll treasure this special night with #Bruno...          92  
+93  RT @BrunoMars: Ladies put your hoops on tonigh...          93  
+94  RT @YoungSheldon: Sheldon will do whatever it ...          94  
+95  RT @survivorcbs: What drama will ensue on back...          95  
+96  Discover every reason why #BrunoMars is 24K Ma...          96  
+97  Did you catch these tiny moments during the 20...          97  
+98  RT @funnyordie: Live! Watch Tim Meadows and Pa...          98  
+99  The 'Only Angel' @Harry_Styles saw last night ...          99  
+
+[100 rows x 8 columns]"
+2,"    Compound  Negative  Neutral  Positive Source  \
+0     0.0000     1.000    0.000     0.000    NYT   
+1     0.0000     1.000    0.000     0.000    NYT   
+2     0.6908     0.491    0.110     0.399    NYT   
+3     0.8519     0.684    0.000     0.316    NYT   
+4     0.1901     0.923    0.000     0.077    NYT   
+5     0.0000     1.000    0.000     0.000    NYT   
+6     0.4019     0.881    0.000     0.119    NYT   
+7     0.4019     0.816    0.000     0.184    NYT   
+8     0.0000     1.000    0.000     0.000    NYT   
+9    -0.7096     0.704    0.296     0.000    NYT   
+10   -0.1531     0.918    0.082     0.000    NYT   
+11    0.0000     1.000    0.000     0.000    NYT   
+12   -0.0258     0.796    0.104     0.100    NYT   
+13   -0.1779     0.909    0.091     0.000    NYT   
+14   -0.6705     0.756    0.244     0.000    NYT   
+15    0.0000     1.000    0.000     0.000    NYT   
+16    0.1280     0.919    0.000     0.081    NYT   
+17    0.0000     1.000    0.000     0.000    NYT   
+18    0.4767     0.830    0.000     0.170    NYT   
+19   -0.3830     0.555    0.263     0.182    NYT   
+20    0.0000     1.000    0.000     0.000    NYT   
+21   -0.7269     0.679    0.321     0.000    NYT   
+22    0.2584     0.903    0.000     0.097    NYT   
+23   -0.4404     0.888    0.112     0.000    NYT   
+24    0.0164     0.685    0.156     0.159    NYT   
+25    0.0772     0.717    0.117     0.166    NYT   
+26    0.0000     1.000    0.000     0.000    NYT   
+27    0.0000     1.000    0.000     0.000    NYT   
+28   -0.4939     0.868    0.132     0.000    NYT   
+29    0.0000     1.000    0.000     0.000    NYT   
+..       ...       ...      ...       ...    ...   
+70    0.6486     0.791    0.000     0.209    NYT   
+71    0.0000     1.000    0.000     0.000    NYT   
+72    0.4767     0.807    0.000     0.193    NYT   
+73    0.0000     1.000    0.000     0.000    NYT   
+74    0.3182     0.887    0.000     0.113    NYT   
+75    0.8519     0.684    0.000     0.316    NYT   
+76   -0.4215     0.532    0.309     0.160    NYT   
+77   -0.5574     0.847    0.153     0.000    NYT   
+78   -0.3369     0.576    0.224     0.199    NYT   
+79    0.3612     0.889    0.000     0.111    NYT   
+80   -0.2023     0.833    0.167     0.000    NYT   
+81   -0.6369     0.729    0.271     0.000    NYT   
+82    0.0000     1.000    0.000     0.000    NYT   
+83   -0.5423     0.829    0.171     0.000    NYT   
+84    0.0000     1.000    0.000     0.000    NYT   
+85    0.4019     0.881    0.000     0.119    NYT   
+86   -0.6124     0.546    0.269     0.185    NYT   
+87    0.0000     1.000    0.000     0.000    NYT   
+88   -0.6908     0.659    0.341     0.000    NYT   
+89    0.0000     1.000    0.000     0.000    NYT   
+90    0.0000     1.000    0.000     0.000    NYT   
+91    0.0000     1.000    0.000     0.000    NYT   
+92   -0.2500     0.810    0.119     0.071    NYT   
+93   -0.4767     0.866    0.134     0.000    NYT   
+94    0.5859     0.758    0.000     0.242    NYT   
+95    0.4939     0.819    0.000     0.181    NYT   
+96    0.0000     1.000    0.000     0.000    NYT   
+97   -0.3400     0.893    0.107     0.000    NYT   
+98   -0.9231     0.565    0.435     0.000    NYT   
+99    0.0000     1.000    0.000     0.000    NYT   
+
+                        Tweet Date  \
+0   Sat Dec 16 04:16:03 +0000 2017   
+1   Sat Dec 16 04:01:04 +0000 2017   
+2   Sat Dec 16 03:46:03 +0000 2017   
+3   Sat Dec 16 03:36:03 +0000 2017   
+4   Sat Dec 16 03:31:04 +0000 2017   
+5   Sat Dec 16 03:23:23 +0000 2017   
+6   Sat Dec 16 03:16:24 +0000 2017   
+7   Sat Dec 16 03:11:11 +0000 2017   
+8   Sat Dec 16 02:58:34 +0000 2017   
+9   Sat Dec 16 02:43:03 +0000 2017   
+10  Sat Dec 16 02:34:04 +0000 2017   
+11  Sat Dec 16 02:29:04 +0000 2017   
+12  Sat Dec 16 02:28:43 +0000 2017   
+13  Sat Dec 16 02:18:05 +0000 2017   
+14  Sat Dec 16 02:14:40 +0000 2017   
+15  Sat Dec 16 02:08:05 +0000 2017   
+16  Sat Dec 16 02:03:02 +0000 2017   
+17  Sat Dec 16 02:02:06 +0000 2017   
+18  Sat Dec 16 01:59:34 +0000 2017   
+19  Sat Dec 16 01:51:52 +0000 2017   
+20  Sat Dec 16 01:48:41 +0000 2017   
+21  Sat Dec 16 01:41:05 +0000 2017   
+22  Sat Dec 16 01:32:04 +0000 2017   
+23  Sat Dec 16 01:31:41 +0000 2017   
+24  Sat Dec 16 01:30:08 +0000 2017   
+25  Sat Dec 16 01:24:21 +0000 2017   
+26  Sat Dec 16 01:24:00 +0000 2017   
+27  Sat Dec 16 01:12:57 +0000 2017   
+28  Sat Dec 16 01:00:23 +0000 2017   
+29  Sat Dec 16 00:53:32 +0000 2017   
+..                             ...   
+70  Fri Dec 15 19:58:59 +0000 2017   
+71  Fri Dec 15 19:55:04 +0000 2017   
+72  Fri Dec 15 19:45:09 +0000 2017   
+73  Fri Dec 15 19:35:04 +0000 2017   
+74  Fri Dec 15 19:25:05 +0000 2017   
+75  Fri Dec 15 19:15:11 +0000 2017   
+76  Fri Dec 15 19:05:07 +0000 2017   
+77  Fri Dec 15 18:55:06 +0000 2017   
+78  Fri Dec 15 18:45:03 +0000 2017   
+79  Fri Dec 15 18:35:07 +0000 2017   
+80  Fri Dec 15 18:25:22 +0000 2017   
+81  Fri Dec 15 18:10:07 +0000 2017   
+82  Fri Dec 15 18:00:25 +0000 2017   
+83  Fri Dec 15 17:50:05 +0000 2017   
+84  Fri Dec 15 17:40:11 +0000 2017   
+85  Fri Dec 15 17:30:41 +0000 2017   
+86  Fri Dec 15 17:30:16 +0000 2017   
+87  Fri Dec 15 17:20:07 +0000 2017   
+88  Fri Dec 15 17:10:12 +0000 2017   
+89  Fri Dec 15 17:00:12 +0000 2017   
+90  Fri Dec 15 16:50:05 +0000 2017   
+91  Fri Dec 15 16:45:22 +0000 2017   
+92  Fri Dec 15 16:37:40 +0000 2017   
+93  Fri Dec 15 16:29:07 +0000 2017   
+94  Fri Dec 15 16:20:14 +0000 2017   
+95  Fri Dec 15 16:10:06 +0000 2017   
+96  Fri Dec 15 16:00:20 +0000 2017   
+97  Fri Dec 15 15:57:04 +0000 2017   
+98  Fri Dec 15 15:52:48 +0000 2017   
+99  Fri Dec 15 15:50:05 +0000 2017   
+
+                                           Tweet Text  Tweets Ago  
+0   Apple has released an iMac Pro with a starting...           0  
+1   Climate change in the Northern Arctic is happe...           1  
+2   The strange and fascinating stories behind you...           2  
+3   AOL Instant Messenger officially shuts down, b...           3  
+4   ""How do you make a suit that feels like tracks...           4  
+5   Could the next Roy Moore be awaiting Republica...           5  
+6   RT @CNNHeroes: From coding to literacy: These ...           6  
+7   Two Austrian political parties have formed a g...           7  
+8   Here's a look at what's in the GOP's final tax...           8  
+9   ESPN is denying allegations of sexual harassme...           9  
+10  3 awkward pictures that tell you everything ab...          10  
+11  George Clooney is working on a Watergate serie...          11  
+12  RT @AC360: Democrat Rep. Jim Himes: There is a...          12  
+13  ""Since the election of President Donald Trump,...          13  
+14  The ACLU is working to block the Trump adminis...          14  
+15  Lawmakers have decided not to touch a tax dedu...          15  
+16  Secretary of Defense James Mattis said he does...          16  
+17  Lawmakers have spared graduate students from h...          17  
+18  ""I’m hoping the White House will pull down Mr....          18  
+19  RT @AC360: Well, this isn't good: President Tr...          19  
+20  The final version of the GOP tax bill eliminat...          20  
+21  A former high school soccer coach arrested wit...          21  
+22  The end of 2017 is upon us. Here's how not to ...          22  
+23  RT @AC360: Democrat Rep. Jim Himes: President ...          23  
+24  Their missions vary greatly: To provide loving...          24  
+25  RT @AC360: Keeping Them Honest: Does Russia's ...          25  
+26  Rep. Ted Lieu: “My biggest concern is that the...          26  
+27  Will Obamacare survive the tax bill? https://t...          27  
+28  In fear for his life, a police officer shoots ...          28  
+29  Google Street View recorded millions of red cr...          29  
+..                                                ...         ...  
+70  Republican Sen. Marco Rubio will vote yes on t...          70  
+71  Prince Harry and Meghan Markle will marry on M...          71  
+72  First lady Melania Trump's popularity continue...          72  
+73  Facebook is rolling out a new 30-day ""mute"" bu...          73  
+74  SpaceX makes another huge step toward becoming...          74  
+75  AOL Instant Messenger officially shuts down, b...          75  
+76  Grand jury slams Penn State for ignoring repor...          76  
+77  'The Last Jedi' hits theaters with $45 million...          77  
+78  Want to fix sexual harassment? Don't hire jerk...          78  
+79  President Trump says he spoke with Russian Pre...          79  
+80  Why I confronted Jeff Flake on a plane | via @...          80  
+81  A mother's questions about her son's death lea...          81  
+82  Take a look back at the photos that shaped 201...          82  
+83  Democratic Sen. Richard Blumenthal says Presid...          83  
+84  One year after President Trump flipped Michiga...          84  
+85  From an 8 year old saving the planet to a 12 y...          85  
+86  Theresa May might survive nightmare year, but ...          86  
+87  Both President Trump and his former chief poli...          87  
+88  This story on Trump's Russia paranoia is terri...          88  
+89  Secretary of State Rex Tillerson: 'North Korea...          89  
+90  Apple has released an iMac Pro with a starting...          90  
+91  What key Republican senators are saying about ...          91  
+92  Trump nominee struggles to answer legal questi...          92  
+93  ""Probably the reason why these journalists wer...          93  
+94  Joe Biden sure looks like he is running for pr...          94  
+95  The vote to roll back #netneutrality rules was...          95  
+96  Prince Harry and Meghan Markle will marry on M...          96  
+97  President Trump's message for gang members: ""T...          97  
+98  ""We believe criminals who kill police officers...          98  
+99  What the end of US net neutrality means for th...          99  
+
+[100 rows x 8 columns]"
+3,"    Compound  Negative  Neutral  Positive Source  \
+0     0.0000     0.618    0.185     0.197    NYT   
+1     0.6249     0.843    0.000     0.157    NYT   
+2     0.1078     0.804    0.091     0.106    NYT   
+3     0.2584     0.919    0.000     0.081    NYT   
+4     0.0000     1.000    0.000     0.000    NYT   
+5    -0.0516     0.152    0.439     0.409    NYT   
+6     0.7569     0.481    0.000     0.519    NYT   
+7     0.3415     0.869    0.000     0.131    NYT   
+8     0.0000     1.000    0.000     0.000    NYT   
+9     0.4574     0.770    0.000     0.230    NYT   
+10    0.6908     0.695    0.000     0.305    NYT   
+11    0.7569     0.481    0.000     0.519    NYT   
+12    0.7418     0.674    0.000     0.326    NYT   
+13    0.1531     0.722    0.124     0.155    NYT   
+14    0.0000     1.000    0.000     0.000    NYT   
+15    0.0000     1.000    0.000     0.000    NYT   
+16    0.4588     0.885    0.000     0.115    NYT   
+17    0.6369     0.785    0.000     0.215    NYT   
+18    0.7424     0.673    0.000     0.327    NYT   
+19    0.0075     0.801    0.099     0.100    NYT   
+20    0.6369     0.794    0.000     0.206    NYT   
+21    0.5719     0.830    0.000     0.170    NYT   
+22    0.4939     0.878    0.000     0.122    NYT   
+23   -0.4767     0.734    0.192     0.073    NYT   
+24    0.4199     0.589    0.000     0.411    NYT   
+25    0.0000     1.000    0.000     0.000    NYT   
+26    0.0000     1.000    0.000     0.000    NYT   
+27    0.6124     0.755    0.050     0.194    NYT   
+28    0.0000     1.000    0.000     0.000    NYT   
+29    0.0688     0.895    0.048     0.057    NYT   
+..       ...       ...      ...       ...    ...   
+70    0.7835     0.567    0.000     0.433    NYT   
+71    0.0823     0.690    0.122     0.187    NYT   
+72    0.0000     1.000    0.000     0.000    NYT   
+73    0.4926     0.653    0.000     0.347    NYT   
+74   -0.5719     0.866    0.134     0.000    NYT   
+75   -0.1154     0.831    0.095     0.073    NYT   
+76    0.2023     0.781    0.089     0.130    NYT   
+77   -0.4767     0.744    0.256     0.000    NYT   
+78    0.0000     1.000    0.000     0.000    NYT   
+79    0.6124     0.687    0.080     0.233    NYT   
+80    0.4199     0.589    0.000     0.411    NYT   
+81    0.3802     0.778    0.067     0.155    NYT   
+82    0.3612     0.894    0.000     0.106    NYT   
+83    0.6696     0.830    0.000     0.170    NYT   
+84    0.2732     0.905    0.000     0.095    NYT   
+85   -0.3804     0.788    0.138     0.075    NYT   
+86    0.7086     0.710    0.054     0.237    NYT   
+87    0.6808     0.789    0.000     0.211    NYT   
+88    0.7569     0.381    0.000     0.619    NYT   
+89    0.0000     1.000    0.000     0.000    NYT   
+90    0.0000     1.000    0.000     0.000    NYT   
+91    0.5106     0.870    0.000     0.130    NYT   
+92    0.7845     0.683    0.000     0.317    NYT   
+93    0.7003     0.640    0.064     0.296    NYT   
+94    0.0000     1.000    0.000     0.000    NYT   
+95    0.4915     0.819    0.000     0.181    NYT   
+96   -0.5267     0.848    0.152     0.000    NYT   
+97    0.0516     0.760    0.116     0.124    NYT   
+98    0.0000     1.000    0.000     0.000    NYT   
+99   -0.4019     0.722    0.278     0.000    NYT   
+
+                        Tweet Date  \
+0   Sat Dec 16 00:59:29 +0000 2017   
+1   Fri Dec 15 22:11:32 +0000 2017   
+2   Fri Dec 15 03:52:18 +0000 2017   
+3   Fri Dec 15 03:49:25 +0000 2017   
+4   Fri Dec 15 00:06:09 +0000 2017   
+5   Thu Dec 14 23:44:33 +0000 2017   
+6   Thu Dec 14 23:44:11 +0000 2017   
+7   Thu Dec 14 23:39:37 +0000 2017   
+8   Thu Dec 14 23:37:17 +0000 2017   
+9   Thu Dec 14 22:37:44 +0000 2017   
+10  Thu Dec 14 21:49:06 +0000 2017   
+11  Thu Dec 14 21:13:21 +0000 2017   
+12  Thu Dec 14 20:54:56 +0000 2017   
+13  Thu Dec 14 20:43:09 +0000 2017   
+14  Thu Dec 14 20:28:54 +0000 2017   
+15  Thu Dec 14 20:22:26 +0000 2017   
+16  Thu Dec 14 20:19:02 +0000 2017   
+17  Thu Dec 14 19:21:14 +0000 2017   
+18  Thu Dec 14 09:18:21 +0000 2017   
+19  Thu Dec 14 05:51:10 +0000 2017   
+20  Thu Dec 14 05:49:50 +0000 2017   
+21  Thu Dec 14 05:48:39 +0000 2017   
+22  Thu Dec 14 03:14:29 +0000 2017   
+23  Thu Dec 14 00:11:47 +0000 2017   
+24  Wed Dec 13 22:51:01 +0000 2017   
+25  Wed Dec 13 22:50:39 +0000 2017   
+26  Wed Dec 13 22:37:38 +0000 2017   
+27  Wed Dec 13 22:31:45 +0000 2017   
+28  Wed Dec 13 22:31:09 +0000 2017   
+29  Wed Dec 13 22:27:01 +0000 2017   
+..                             ...   
+70  Mon Dec 11 21:42:09 +0000 2017   
+71  Mon Dec 11 21:41:35 +0000 2017   
+72  Mon Dec 11 20:06:13 +0000 2017   
+73  Mon Dec 11 10:34:55 +0000 2017   
+74  Mon Dec 11 04:11:08 +0000 2017   
+75  Mon Dec 11 02:41:34 +0000 2017   
+76  Mon Dec 11 02:00:22 +0000 2017   
+77  Mon Dec 11 01:56:43 +0000 2017   
+78  Mon Dec 11 01:51:01 +0000 2017   
+79  Mon Dec 11 01:38:27 +0000 2017   
+80  Mon Dec 11 01:28:36 +0000 2017   
+81  Mon Dec 11 01:18:48 +0000 2017   
+82  Mon Dec 11 00:59:29 +0000 2017   
+83  Sun Dec 10 23:55:24 +0000 2017   
+84  Sun Dec 10 21:39:31 +0000 2017   
+85  Sun Dec 10 02:13:44 +0000 2017   
+86  Sat Dec 09 22:35:05 +0000 2017   
+87  Sat Dec 09 22:32:08 +0000 2017   
+88  Sat Dec 09 07:07:23 +0000 2017   
+89  Fri Dec 08 05:21:13 +0000 2017   
+90  Fri Dec 08 03:42:40 +0000 2017   
+91  Fri Dec 08 03:41:58 +0000 2017   
+92  Fri Dec 08 01:56:22 +0000 2017   
+93  Fri Dec 08 01:51:28 +0000 2017   
+94  Fri Dec 08 01:43:19 +0000 2017   
+95  Fri Dec 08 01:37:16 +0000 2017   
+96  Fri Dec 08 00:04:17 +0000 2017   
+97  Thu Dec 07 23:59:25 +0000 2017   
+98  Thu Dec 07 20:55:03 +0000 2017   
+99  Thu Dec 07 09:45:12 +0000 2017   
+
+                                           Tweet Text  Tweets Ago  
+0   RT @lisatozzi: Well, sorry about the harassmen...           0  
+1   RT @jesslynnrose: Tech Twitter: Who is someone...           1  
+2   RT @amyngyn: read this thread. your opinion on...           2  
+3   RT @christineliuart: We cannot deny that pink ...           3  
+4                           @dgoodlad hi @charliesome           4  
+5                              @machinesbleed2 Yes :(           5  
+6   @pvm Thank you, Paul! That’s very kind feedbac...           6  
+7   Remember that people of colour, LGBTQI+ or ind...           7  
+8   RT @yassmin_a: Can we not use 'diverse' as sho...           8  
+9   I’ve just pledged to @IndigenousXLtd Patreon. ...           9  
+10  @mbrianaepler @sw There’s definitely plenty of...          10  
+11  @AndyDavies @benschwarz Thank you, Andy! That’...          11  
+12  @tnamozova Yes! I didn’t intend to list all of...          12  
+13  @mbrianaepler Hi, I’m aware of Tech Inclusion’...          13  
+14  GENDER ?? DIVERSITY ?? IS ?? NOT ?? DIVERSITY ...          14  
+15  Focusing on gender diversity is harmful to man...          15  
+16  RT @sw: Welcome to Melbourne. Start by educati...          16  
+17  RT @KimCrayton1: “During that process, for man...          17  
+18  RT @CSSconfeu: ? Last chance before the holida...          18  
+19  Fascinating, but not surprising stats from @te...          19  
+20  RT @em_llojo: This holiday season:\n- Tip your...          20  
+21  RT @sabrina: Can I share something about this ...          21  
+22  RT @jguynn: Susan Wu says Chris Sacca handed o...          22  
+23  I felt physical distress reading the Salma Hay...          23  
+24                  @Mandy_Kerr Thank you, Mandy! ???          24  
+25                                  @sailorhg asshats          25  
+26  @sailorhg because white men have to insert the...          26  
+27  RT @austinchanning: Thank black women by suppo...          27  
+28  Hey men, you need to do this more. https://t.c...          28  
+29  RT @tiffani: I know this was meant to be a jok...          29  
+..                                                ...         ...  
+70  @tbaldauf @busrakoken @polinapok1 @ivanapetrov...          70  
+71  @bluesmoon @tameverts @sergeyche @perfplanet @...          71  
+72  @tameverts @sergeyche @perfplanet @stoyanstefa...          72  
+73  @fhinkel General performance is good too! Book...          73  
+74  RT @linclark: Reminder of how much some dudes ...          74  
+75  Finally got a chance to give CSS Grid a go. Th...          75  
+76  I do like the idea of a performance calendar (...          76  
+77  Me at white men getting sad about “feeling exc...          77  
+78              @linclark omg, queueing all of this ?          78  
+79  @evanderkoogh I just don’t go. Also, it’s fair...          79  
+80                 @linclark @perfemail ?? thank you!          80  
+81  Seems like we have James Damore fans in Melbou...          81  
+82  RT @maybekatz: Thank you for everything, @ashe...          82  
+83  Are you a woman and/or a person of color writi...          83  
+84  RT @EvyKassirer: Being aware of power dynamics...          84  
+85  If you’ve ever thought “wow, this is the most ...          85  
+86  RT @scribblingfox: QUICK BEAUTY TIP FOR LADIES...          86  
+87  RT @Una: Observations of my friends interviewi...          87  
+88             @cesidio thank you! That’s very kind ?          88  
+89  RT @EricaJoy: We have not been silent. You hav...          89  
+90  RT @marazepeda: Patreon has raised $100MM\nKic...          90  
+91  RT @notwaldorf: Hot take: the major difference...          91  
+92  @mikeal Agree. I definitely wouldn’t treat it ...          92  
+93  @mikeal Yeah, I agree it’s tricky, although I ...          93  
+94  Only 2% of Patreon creators who earn more than...          94  
+95  RT @Sareh88: Communication is more important t...          95  
+96  @MlleLicious I think I have to scale it back t...          96  
+97  A few months ago I was energised about a varie...          97  
+98     Daily reminder: overthrow the patriarchy.\n\n?          98  
+99  RT @kamilah: He has some damn nerve https://t....          99  
+
+[100 rows x 8 columns]"
+4,"    Compound  Negative  Neutral  Positive Source  \
+0    -0.4767     0.693    0.307     0.000    NYT   
+1     0.0000     1.000    0.000     0.000    NYT   
+2    -0.3818     0.658    0.342     0.000    NYT   
+3     0.0000     1.000    0.000     0.000    NYT   
+4     0.0000     1.000    0.000     0.000    NYT   
+5     0.0000     1.000    0.000     0.000    NYT   
+6     0.4019     0.630    0.118     0.252    NYT   
+7     0.4576     0.750    0.000     0.250    NYT   
+8    -0.4877     0.528    0.329     0.143    NYT   
+9    -0.5423     0.829    0.171     0.000    NYT   
+10   -0.1531     0.758    0.242     0.000    NYT   
+11   -0.3182     0.753    0.247     0.000    NYT   
+12   -0.4404     0.674    0.326     0.000    NYT   
+13    0.0000     1.000    0.000     0.000    NYT   
+14    0.0000     1.000    0.000     0.000    NYT   
+15    0.0000     1.000    0.000     0.000    NYT   
+16    0.0000     1.000    0.000     0.000    NYT   
+17   -0.2732     0.769    0.231     0.000    NYT   
+18   -0.7906     0.517    0.414     0.069    NYT   
+19    0.0000     1.000    0.000     0.000    NYT   
+20   -0.2023     0.847    0.153     0.000    NYT   
+21    0.3612     0.800    0.000     0.200    NYT   
+22    0.0000     1.000    0.000     0.000    NYT   
+23    0.4588     0.727    0.000     0.273    NYT   
+24    0.0000     1.000    0.000     0.000    NYT   
+25   -0.1779     0.876    0.124     0.000    NYT   
+26    0.3804     0.809    0.000     0.191    NYT   
+27    0.0000     1.000    0.000     0.000    NYT   
+28    0.0000     1.000    0.000     0.000    NYT   
+29   -0.3182     0.777    0.223     0.000    NYT   
+..       ...       ...      ...       ...    ...   
+70    0.0000     1.000    0.000     0.000    NYT   
+71    0.0000     1.000    0.000     0.000    NYT   
+72    0.3400     0.821    0.000     0.179    NYT   
+73   -0.6486     0.650    0.350     0.000    NYT   
+74   -0.0990     0.429    0.299     0.271    NYT   
+75    0.0000     1.000    0.000     0.000    NYT   
+76   -0.5994     0.738    0.262     0.000    NYT   
+77    0.0000     1.000    0.000     0.000    NYT   
+78   -0.2960     0.732    0.268     0.000    NYT   
+79    0.0000     1.000    0.000     0.000    NYT   
+80    0.7269     0.697    0.000     0.303    NYT   
+81    0.0000     1.000    0.000     0.000    NYT   
+82   -0.2263     0.808    0.192     0.000    NYT   
+83   -0.6908     0.612    0.388     0.000    NYT   
+84    0.0000     1.000    0.000     0.000    NYT   
+85    0.0772     0.915    0.000     0.085    NYT   
+86    0.0000     1.000    0.000     0.000    NYT   
+87    0.4404     0.672    0.000     0.328    NYT   
+88    0.6486     0.569    0.000     0.431    NYT   
+89    0.0000     1.000    0.000     0.000    NYT   
+90    0.0000     1.000    0.000     0.000    NYT   
+91    0.0000     1.000    0.000     0.000    NYT   
+92    0.0000     1.000    0.000     0.000    NYT   
+93    0.7717     0.544    0.000     0.456    NYT   
+94    0.5423     0.632    0.000     0.368    NYT   
+95    0.0000     1.000    0.000     0.000    NYT   
+96   -0.3818     0.658    0.342     0.000    NYT   
+97    0.0000     1.000    0.000     0.000    NYT   
+98    0.0000     1.000    0.000     0.000    NYT   
+99    0.0000     1.000    0.000     0.000    NYT   
+
+                        Tweet Date  \
+0   Sat Dec 16 04:09:33 +0000 2017   
+1   Sat Dec 16 04:08:35 +0000 2017   
+2   Sat Dec 16 03:54:33 +0000 2017   
+3   Sat Dec 16 03:53:34 +0000 2017   
+4   Sat Dec 16 03:38:33 +0000 2017   
+5   Sat Dec 16 03:21:33 +0000 2017   
+6   Sat Dec 16 03:20:33 +0000 2017   
+7   Sat Dec 16 03:19:33 +0000 2017   
+8   Sat Dec 16 03:18:33 +0000 2017   
+9   Sat Dec 16 03:17:33 +0000 2017   
+10  Sat Dec 16 03:15:33 +0000 2017   
+11  Sat Dec 16 03:14:32 +0000 2017   
+12  Sat Dec 16 03:13:33 +0000 2017   
+13  Sat Dec 16 03:12:33 +0000 2017   
+14  Sat Dec 16 03:11:33 +0000 2017   
+15  Sat Dec 16 03:09:33 +0000 2017   
+16  Sat Dec 16 03:08:32 +0000 2017   
+17  Sat Dec 16 03:07:33 +0000 2017   
+18  Sat Dec 16 03:06:33 +0000 2017   
+19  Sat Dec 16 03:04:32 +0000 2017   
+20  Sat Dec 16 03:02:33 +0000 2017   
+21  Sat Dec 16 03:01:33 +0000 2017   
+22  Sat Dec 16 03:00:33 +0000 2017   
+23  Sat Dec 16 02:57:32 +0000 2017   
+24  Sat Dec 16 02:56:32 +0000 2017   
+25  Sat Dec 16 02:55:32 +0000 2017   
+26  Sat Dec 16 02:54:33 +0000 2017   
+27  Sat Dec 16 02:52:32 +0000 2017   
+28  Sat Dec 16 02:51:33 +0000 2017   
+29  Sat Dec 16 02:39:32 +0000 2017   
+..                             ...   
+70  Fri Dec 15 22:38:32 +0000 2017   
+71  Fri Dec 15 22:36:31 +0000 2017   
+72  Fri Dec 15 22:23:31 +0000 2017   
+73  Fri Dec 15 22:21:31 +0000 2017   
+74  Fri Dec 15 22:08:31 +0000 2017   
+75  Fri Dec 15 21:51:31 +0000 2017   
+76  Fri Dec 15 21:38:32 +0000 2017   
+77  Fri Dec 15 21:36:31 +0000 2017   
+78  Fri Dec 15 21:23:31 +0000 2017   
+79  Fri Dec 15 21:08:31 +0000 2017   
+80  Fri Dec 15 20:57:31 +0000 2017   
+81  Fri Dec 15 20:56:31 +0000 2017   
+82  Fri Dec 15 20:55:31 +0000 2017   
+83  Fri Dec 15 20:54:31 +0000 2017   
+84  Fri Dec 15 20:53:31 +0000 2017   
+85  Fri Dec 15 20:52:31 +0000 2017   
+86  Fri Dec 15 20:51:31 +0000 2017   
+87  Fri Dec 15 20:50:31 +0000 2017   
+88  Fri Dec 15 20:39:31 +0000 2017   
+89  Fri Dec 15 20:38:31 +0000 2017   
+90  Fri Dec 15 20:23:31 +0000 2017   
+91  Fri Dec 15 19:58:31 +0000 2017   
+92  Fri Dec 15 19:52:31 +0000 2017   
+93  Fri Dec 15 19:50:31 +0000 2017   
+94  Fri Dec 15 19:42:31 +0000 2017   
+95  Fri Dec 15 19:41:31 +0000 2017   
+96  Fri Dec 15 19:40:31 +0000 2017   
+97  Fri Dec 15 19:39:31 +0000 2017   
+98  Fri Dec 15 19:38:31 +0000 2017   
+99  Fri Dec 15 19:37:31 +0000 2017   
+
+                                           Tweet Text  Tweets Ago  
+0   What Has Bannon Blamed for Moore’s Problems?. ...           0  
+1   Op-Ed Contributor: How I Went From the Governo...           1  
+2   Letter: How #MeToo Threatens Equality. https:/...           2  
+3   Letter: The Tax Bill: ‘This Abomination’. http...           3  
+4   Contributing Op-Ed Writer: Gift-Giving Tips Fr...           4  
+5   1,000 Miles, Four Families, One Christmas Tree...           5  
+6   Governors Look to Save Nafta Amid Washington’s...           6  
+7   Uber Engaged in ‘Illegal’ Spying on Rivals, Ex...           7  
+8   Charities’ Fear Under Tax Bill: Less Money to ...           8  
+9   State of the Art: Facebook Conceded It Might M...           9  
+10  Op-Ed Contributor: Alabama’s Unlikely Rebel. h...          10  
+11  Editorial: Donald Trump Seems Confused About J...          11  
+12  Op-Ed Columnist: The Real Russia Scandal. http...          12  
+13  Editorial Notebook: Guns Under the Christmas T...          13  
+14  Op-Ed Contributor: Democrats Could Claim a New...          14  
+15  A.C.L.U. Goes to Court for 2 Undocumented Teen...          15  
+16  It Will Be Anthony vs. Knicks, but Maybe Not A...          16  
+17  A Middle-Class Tax Cut? Americans Aren’t Buyin...          17  
+18  Dutch Court Sentences Ethiopian to Life in Pri...          18  
+19  Republicans’ $1.5 Trillion Tax Plan Appears on...          19  
+20  Fancy Sausages and a $2 Million Bribe: A Trial...          20  
+21  E.U. Leaders Agree to Begin Next Phase of Brex...          21  
+22  Nelson Peltz Appointed to P.&amp;G. Board, Aft...          22  
+23  Welcome to Chez Santa. Do You Have a Reservati...          23  
+24  Vocations: Don’t Look for Snacks in These Vend...          24  
+25  Doing the Harlem Shake, Ajit Pai as You’ve Nev...          25  
+26  Critic’s Notebook: You Know Your History? Thes...          26  
+27  The Times in Person: Readers in Michigan: We N...          27  
+28  Bits: Farhad and Mike’s Week in Tech: Net Neut...          28  
+29  Panthers Owner Jerry Richardson Investigated O...          29  
+..                                                ...         ...  
+70  Op-Ed Contributor: Russell Simmons, R. Kelly, ...          70  
+71  Weeks After Mugabe Fell, Zimbabwe Remains in t...          71  
+72  When the N.H.L. Began Play 100 Years Ago, Goal...          72  
+73  Marina Popovich, Record-Breaking Soviet Test P...          73  
+74  Opinion: Have a Very Merry War on Christmas. h...          74  
+75  City Kitchen: A Different Kind of Christmas Di...          75  
+76  Parents of 2 Homeless Girls Scalded to Death b...          76  
+77  The Book Review Podcast: Mary Beard on ‘Women ...          77  
+78  Opinion: My Year of No Shopping. https://t.co/...          78  
+79  Fox-Disney Deal Gives Rupert Murdoch His King ...          79  
+80  That Decisive Moment: Humble Cinderella: The 8...          80  
+81  Trilobites: An Ancient Step Toward Modern Bird...          81  
+82  Court Temporarily Blocks Trump Order Against C...          82  
+83  Accused of Sexual Harassment, Andrea Ramsey En...          83  
+84  On Washington: With New Focus on Sexual Miscon...          84  
+85  Playlist: The Playlist: Black Thought Freestyl...          85  
+86  Review: ‘Permanent,’ About the Hairstyle, Fall...          86  
+87  Apple Adds Another Show to Its Growing Streami...          87  
+88  Metropolitan Diary: Helping Two Friends Find E...          88  
+89  Children’s Books: Live Art With Children’s Boo...          89  
+90  Tip: How to Get Rid of Lionfish. https://t.co/...          90  
+91  He Knows Melodrama When He Sees It. https://t....          91  
+92  Right and Left React to the F.C.C.’s Vote on N...          92  
+93  A Good Appetite: Lamb Shanks Show Off Their In...          93  
+94  Letter: An Israeli View on Peace. https://t.co...          94  
+95  Letters: The Effects of Ending Net Neutrality....          95  
+96  Letter: How #MeToo Threatens Equality. https:/...          96  
+97  Letter: TheTax Bill: ‘This Abomination’. https...          97  
+98  Letter: Parents, Kids and Tech. https://t.co/J...          98  
+99  On Pro Basketball: An N.B.A. Team in Mexico Ci...          99  
+
+[100 rows x 8 columns]"
