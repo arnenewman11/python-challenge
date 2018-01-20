@@ -77,7 +77,7 @@ UPDATE actor SET first_name = CASE
 
 -- 5a. You cannot locate the schema of the address table. Which query would you use to re-create it?
 
--- mysqldump -u newman.arne@gmail.com -p sakila <path/address.sql -- Is this what it is asking?
+SHOW CREATE TABLE sakila.actor;
 
 -- 6a. Use JOIN to display the first and last names, as well as the address, of each staff member. Use the tables staff and address:
 SELECT staff.first_name, staff.last_name, address.address
@@ -274,9 +274,32 @@ FROM
 GROUP BY category.name
 ORDER BY genre_revenue DESC LIMIT 5;
 
--- 8a. In your new role as an executive, you would like to have an easy way of viewing the Top five genres by gross revenue. Use the solution from the problem above to create a view. 
--- If you haven't solved 7h, you can substitute another query to create a view.
+-- 8a. In your new role as an executive, you would like to have an easy way of viewing the Top five genres by gross revenue. 
+-- Use the solution from the problem above to create a view. If you haven't solved 7h, you can substitute another query to create a view.
+
+CREATE VIEW top_grossing AS 
+SELECT category.name, SUM(payment.amount) AS genre_revenue
+FROM 
+	category
+    INNER JOIN
+    film_category
+    ON(category.category_id = film_category.category_id)
+    INNER JOIN
+    inventory
+    ON(inventory.film_id = film_category.film_id)
+    LEFT JOIN
+    rental
+    ON(inventory.inventory_id = rental.inventory_id)
+    LEFT JOIN
+    payment
+    ON(rental.rental_id = payment.rental_id)
+GROUP BY category.name
+ORDER BY genre_revenue DESC LIMIT 5;
 
 -- 8b. How would you display the view that you created in 8a?
 
+SELECT * FROM top_grossing;
+
 -- 8c. You find that you no longer need the view top_five_genres. Write a query to delete it.
+
+DROP VIEW top_grossing;
