@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cloudiness</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel='stylesheet' type ="text/css" href='https://fonts.googleapis.com/css?family=Arimo' >
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand mb-0" href="index.html" id = 'title-text'>Latitude</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="temp.html">Latitude vs Temperature</a></li>
+                        <li><a href="humidity.html">Latitude vs Humidity</a></li>
+                        <li><a href="cloudiness.html">Latitude vs Cloudiness</a></li>
+                        <li><a href="wind.html">Latitude vs Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="data.html">Data</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+
+    
+    <div class="container">
+        
+            <div class="col-sm-8">
+                <div class="panel panel-primary">
+                    <div class="panel-heading" id = 'lat-sum-header'>
+                        <h3 class="panel-title" id = 'lat-sum'>Latitude vs Cloudiness</h3>
+                    </div>
+                    <div class="panel-body">
+                        
+                        <div class="media" align = 'center'>
+                            <a class="media-middle" href="#">
+                                <img class="media-object" id = "data-pic" src="output_data/Fig3.png" alt="Image" >
+                            </a>
+                            <div class="media-body" id = 'data-text'>
+                                    <hr>
+                                    <p>The data for latitude vs cloudiness shows no significant correlation since there is a largely even spread of the data throughout the graph. There are no significant outliers but the points with 100% cloudiness could be due to the rainforests found prominently at those latitudes. </p>
+                                </div>
+                        </div>
+                        
+                    </div>
+            </div>
+            
+            </div>
+            
+            
+            <div class="col-sm-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading" id = 'vis-text-header'>
+                        <h3 class="panel-title" id = 'vis-text'>Visualizations</h3>
+                    </div>
+                    <div class="panel-body">
+                        
+                        <a href = 'temp.html'><img class="img-responsive" id = "img-fig-1" src="output_data/Fig1.png" alt="Image"></a>
+    
+                        <a href="humidity.html"><img class="img-responsive" id = "img-fig-2" src="output_data/Fig2.png" alt="Image"></a>
+                        
+                        <a href="cloudiness.html"><img class="img-responsive" id = "img-fig-3" src="output_data/Fig3.png" alt="Image"></a>
+    
+                        <a href="wind.html"><img class="img-responsive" id = "img-fig-4" src="output_data/Fig4.png" alt="Image"></a>
+                        
+                    </div>
+                    
+    
+                </div>
+            
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
