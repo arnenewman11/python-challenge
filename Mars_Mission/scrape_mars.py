@@ -3,6 +3,10 @@ from splinter import Browser
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import pandas as pd
+import pymongo
+
+conn = "mongodb://localhost:27017"
+client = pymongo.MongoClient(conn)
 
 ##INSTRUCTIONS - NASA Mars News
 
@@ -18,27 +22,22 @@ def init_browser():
 def scrape():
     
 	mars_dict = {}
-	'''browser = init_browser()
-	     
-	    url_news = "https://mars.nasa.gov/news/"
-	    browser.visit(url_news)
-	    time.sleep(1)
-	    
-	    html = browser.html
-	    soup = BeautifulSoup(html, "html.parser")
+	url_news = "https://mars.nasa.gov/news/"
+	response = requests.get(url_news)
+	url_news = "https://mars.nasa.gov/news/"
+	soup = BeautifulSoup(response.text, "html.parser")
 
-	    news_title = soup.find("a", class_="content_title").get_text()
-	    news_text = soup.find("div", class_="article_teaser_body").get_text()
+	news_title_raw = soup.find("div", class_="content_title").text
+	news_p_raw = soup.find("div", class_="rollover_description_inner").text    
 
-	    mars_dict["News_Title"] = news_title
-	    mars_dict["News_Text"] = news_text'''
+	news_title= news_title_raw.strip()
+	news_p = news_p_raw.strip()
 
-
-		##INSTRUCTIONS:JPL Mars Space Images - Featured Image
-		#Visit the url for JPL's Featured Space Image here.
-		#Use splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called featured_image_url.
-		#Make sure to find the image url to the full size .jpg image.
-		#Make sure to save a complete url string for this image.'''
+	##INSTRUCTIONS:JPL Mars Space Images - Featured Image
+	#Visit the url for JPL's Featured Space Image here.
+	#Use splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called featured_image_url.
+	#Make sure to find the image url to the full size .jpg image.
+	#Make sure to save a complete url string for this image.'''
 
 	browser = init_browser()
 	#defining these a second time for when the first section is commented out for debugging
@@ -93,6 +92,6 @@ def scrape():
 
 	return mars_dict
 
-scrape()
+
 
    
