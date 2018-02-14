@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hot Finds</title>
+  <title>Mars Stuff</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
@@ -13,14 +13,36 @@
   <div class="container">
 
     <div class="jumbotron text-center">
-      <h1>Weather Things</h1>
-      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Check Me Out</a></p>
+      <h1>Mars Mission</h1>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
     </div>
+
+    <div class = "row" id="mars-news">
+      <h2>Latest Mars News</h2>
+      <h3>{{mars.mars_news_title}}</h3>
+      <p>{{mars.mars_news_p}}</p>
+    </div>
+    <div class = "row" id="mar-news-image">
+      <div class="col-md-8">
+        <h2>Featured Mars Image</h2>
+        <!-- How to reference the mars object --> 
+        <img src="{{mars.image}}">
+      </div>
+      <div class = "colmd-4">
+        <h3>Current Weather on Mars</h3>
+        <p>{{mars.weather}}</p>
+        <br>
+        <h3>Mars Facts</h3>
+        <table class="table">
+        </table>
+      </div>
+    </div>
+
 
     <div class="row" id="craiglist-listings">
       <div class="col-md-12">
-        <h4 class="heading">{{weather_things.wind}} {{weather_things.tide}}</h4>
-        <small>{{weather_things.regional_details}}</small><!-- @TODO render your data here -->
+        <h4 class="heading">"things"</h4>
+        <small>"things"</small><!-- @TODO render your data here -->
       </div>
     </div>
 

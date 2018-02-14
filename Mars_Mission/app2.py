@@ -45,16 +45,18 @@ def scrape():
 
 	browser = init_browser()
 	#defining these a second time for when the first section is commented out for debugging
-	url = 'https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars'
-	browser.visit(url)
 	html = browser.html
 	soup = BeautifulSoup(html, "html.parser")
+
+
+	url = 'https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars'
+	browser.visit(url)
 
 	featured_image_url =  str(soup.find('a', class_='button fancybox')["data-fancybox-href"])
 
 	full_img_url = str("https://www.jpl.nasa.gov") + featured_image_url
 
-	mars_dict["image"] = full_img_url
+	mars_dict["image"] = full_image_url
 
 	##INSTRUCTIONS: Mars Weather
 	#Visit the Mars Weather twitter account here and scrape the latest Mars weather tweet from the page. 
@@ -63,9 +65,6 @@ def scrape():
 	url_tweet = "https://twitter.com/marswxreport?lang=en"
 	browser.visit(url_tweet)
 	time.sleep(1)
-
-	html = browser.html
-	soup = BeautifulSoup(html, "html.parser")
 
 	mars_weather = soup.find("p", class_="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text").get_text()
 
@@ -97,6 +96,4 @@ def scrape():
 
 	return mars_dict
 
-
-
-   
+scrape()
