@@ -26,25 +26,31 @@
       <div class="col-md-8">
         <h2>Featured Mars Image</h2>
         <!-- How to reference the mars object --> 
-        <img src="{{mars.image}}">
+        <img src="{{mars.image}}" class="img-responsive">
       </div>
-      <div class = "colmd-4">
+      <div class = "col-md-4">
         <h3>Current Weather on Mars</h3>
         <p>{{mars.weather}}</p>
         <br>
         <h3>Mars Facts</h3>
-        <table class="table">
+        <table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Value</th>    </tr>    <tr>      <th>Metric</th>      <th></th>    </tr>  </thead>  <tbody>    <tr>      <th>Equatorial Diameter:</th>      <td>6,792 km</td>    </tr>    <tr>      <th>Polar Diameter:</th>      <td>6,752 km</td>    </tr>    <tr>      <th>Mass:</th>      <td>6.42 x 10^23 kg (10.7% Earth)</td>    </tr>    <tr>      <th>Moons:</th>      <td>2 (Phobos &amp; Deimos)</td>    </tr>    <tr>      <th>Orbit Distance:</th>      <td>227,943,824 km (1.52 AU)</td>    </tr>    <tr>      <th>Orbit Period:</th>      <td>687 days (1.9 years)</td>    </tr>    <tr>      <th>Surface Temperature:</th>      <td>-153 to 20 °C</td>    </tr>    <tr>      <th>First Record:</th>      <td>2nd millennium BC</td>    </tr>    <tr>      <th>Recorded By:</th>      <td>Egyptian astronomers</td>    </tr>  </tbody>
         </table>
       </div>
     </div>
-
-
-    <div class="row" id="craiglist-listings">
-      <div class="col-md-12">
-        <h4 class="heading">"things"</h4>
-        <small>"things"</small><!-- @TODO render your data here -->
+    <div class = "row"  id="hemisphere-title">
+      <h2>Mars Hemispheres</h2>
+      <div class = "col-md-6">
+      <img src="{{mars.hemispheres[0].img_url}}" class="img-responsive">
+      <br>
+      <img src="{{mars.hemispheres[1].img_url}}" class="img-responsive">
+      </div>
+      <div class = "col-md-6">
+      <img src="{{mars.hemispheres[2].img_url}}" class="img-responsive">
+      <br>
+      <img src="{{mars.hemispheres[3].img_url}}" class="img-responsive">
       </div>
     </div>
+
 
   </div>
 </body>
