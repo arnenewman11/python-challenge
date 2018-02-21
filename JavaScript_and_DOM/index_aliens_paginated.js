@@ -14,23 +14,23 @@ $searchBtn.addEventListener("click", handleSearchButtonClick);
 // Set filteredSightings to full dataSet initially
 var filteredSightings = dataSet;
 
-// Set a startingIndex and resultsPerPage variable
-var startingIndex = 0;
-var resultsPerPage = 50;
+
+//Cin's help w/ pagination
+$(document).ready(function() {
+    $('#alientable').dataTable( {
+        "language": {
+            "search": "Search comments:"
+         }
+    } );
+})
 
 // renderTable renders the filteredSightings to the tbody
 function renderTablesection() {
   $tbody.innerHTML = "";
 
-    // Set the value of endingIndex to startingIndex + resultsPerPage
-  var endingIndex = startingIndex + resultsPerPage;
-  // Get a section of the addressData array to render
-  var sightingSubset = filteredSightings.slice(startingIndex, endingIndex);
-
-
-  for (var i = 0; i < sightingSubset.length; i++) {
+    for (var i = 0; i < filteredSightings.length; i++) {
     // Get get the current sighting object and its fields
-    var sightingData = sightingSubset[i];
+    var sightingData = filteredSightings[i];
     
   	//Attempt at converting to MM/DD/YYYY from M/D/YYYY 
   	var dateTimeElements = sightingData.datetime.split('/');
@@ -43,7 +43,7 @@ function renderTablesection() {
     var fields = Object.keys(sightingData);
 
     //ERROR IS HERE Create a new row in the tbody, set the index to be i + startingIndex
-    var $row = $tbody.insertRow(i + startingIndex);
+    var $row = $tbody.insertRow(i);
     for (var j = 0; j < fields.length; j++) {
       // For every field in the address object, create a new cell at set its inner text to be the current value at the current address's field
       var field = fields[j];
@@ -94,20 +94,6 @@ function handleSearchButtonClick() {
   renderTablesection();
 }
 
-// Add an event listener to the button, call handleButtonClick when clicked
-$loadMoreBtn.addEventListener("click", handleButtonClick);
-
-function handleButtonClick() {
-  // Increase startingIndex by resultsPerPage, render the next section of the table
-  startingIndex += resultsPerPage;
-  
-  // Check to see if there are any more results to render
-  if (startingIndex + resultsPerPage >= filteredSightings.length) {
-    $loadMoreBtn.classList.add("disabled");
-    $loadMoreBtn.innerText = "All Sightings Loaded";
-    $loadMoreBtn.removeEventListener("click", handleButtonClick);
-  } else {renderTablesection();}
-}
-
 // Render the table for the first time on page load
 renderTablesection();
+
