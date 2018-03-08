@@ -22,7 +22,7 @@ function makeResponsive() {
   var margin = {
     top: 20,
     right: 40,
-    bottom: 60,
+    bottom: 20,
     left: 100
   };
 
@@ -56,7 +56,6 @@ function makeResponsive() {
       data.education = +data.education;
       data.education = +data.obesity;
     });
-
 
     // Create scale functions
     var yLinearScale = d3.scaleLinear()
@@ -104,9 +103,13 @@ function makeResponsive() {
     var currentAxisLabelX = "poverty";
     var currentAxisLabelY = "diabetes";
 
-    // Call findMinAndMax() with 'hair_length' as default
+    // Call findMinAndMax() 
     findMinAndMaxX(currentAxisLabelX);//ISSUE HERE
     findMinAndMaxY(currentAxisLabelY);//ISSUE HERE
+
+    var check1 = findMinAndMaxX(currentAxisLabelX);
+    var check2 = findMinAndMaxY(currentAxisLabelY);
+    console.log(xMin,xMax)
 
     // Set the domain of an axis to extend from the min to the max value of the data column
     xLinearScale.domain([xMin, xMax]);
@@ -126,7 +129,7 @@ function makeResponsive() {
 
     var toolTip = d3.tip()
       .attr("class", "tooltip")
-      .offset([50, -80])
+      .offset([180, -80])
       .html(function (data) {
         var state = data.state;
         var povertyLevel = data.poverty;
@@ -146,14 +149,14 @@ function makeResponsive() {
       .data(usData)
       .enter().append("circle")
       .attr("cx", function (data, index) {
-        
         return xLinearScale(data[currentAxisLabelX]);
+        console.log(data[currentAxisLabelX])
       })
       .attr("cy", function (data, index) {
         return yLinearScale(data[currentAxisLabelY]);
       })
-      .attr("r", "11")
-      .attr("fill", "lightblue")
+      .attr("r", "15")
+      .attr("fill", "red")
       .on("click", function (data) {
         toolTip.show(data);
       })
@@ -164,10 +167,12 @@ function makeResponsive() {
 
     chart.append("g")
       .attr("transform", `translate(0, ${height})`)
+      .attr("class", "x-axis")
       .call(bottomAxis);
 
     chart.append("g")
-      .call(leftAxis);
+      .call(leftAxis)
+      .attr("class", "left-axis");
 
     //append y-axis labels - DEFAULT
     chart.append("text")
@@ -175,7 +180,7 @@ function makeResponsive() {
       .attr("y", 0 - margin.left + 20)
       .attr("x", 0 - (height / 2))
       .attr("dy", "1em")
-      .attr("class", "axisText active")
+      .attr("class", "axisText")
       .attr("data-axis-name", "diabetes")
       .text("% of Population Below Poverty Line");
 
@@ -203,10 +208,10 @@ function makeResponsive() {
     chart.append("text")
       .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.top + 20) + ")")
       .attr("class", "axisText active")
-      .attr("data-axis-name", "median_age")
-      .text("Median Age");
+      .attr("data-axis-name", "poverty")
+      .text("% of Population below Poverty Line");
 
-    //// Append x-axis labels ---FIX THESE, THEY'RE INACTIVE
+    //// Append x-axis labels 
     chart.append("text")
       .attr("transform", "translate(" + (width / 2) + " ," + (height + margin.top + 40) + ")")
       .attr("class", "axisText inactive")
@@ -233,7 +238,7 @@ function makeResponsive() {
       clickedAxis.classed("inactive", false).classed("active", true);
     }
 
-    d3.selectAll(".axisText").on("click", function () {
+    d3.selectAll(".axisText").on("mouseover", function () {
       // Assign a variable to current axis
       var clickedSelection = d3.select(this);
       // "true" or "false" based on whether the axis is currently selected
@@ -251,10 +256,15 @@ function makeResponsive() {
         currentAxisLabelX = clickedAxis;
         // Call findMinAndMax() to define the min and max domain values.
         findMinAndMaxX(currentAxisLabelX);
+        // Call findMinAndMax() to define the min and max domain values.
+        findMinAndMaxY(currentAxisLabelY);//ADDED
         // Set the domain for the x-axis
         xLinearScale.domain([xMin, xMax]);
+        // Set the domain for the x-axis
+        yLinearScale.domain([yMin, yMax]);//ADDED
+
         // Create a transition effect for the x-axis
-        chart
+        svg
           .select(".x-axis")
           .transition()
           // .ease(d3.easeElastic)
@@ -268,7 +278,7 @@ function makeResponsive() {
             .transition()
             // .ease(d3.easeBounce)
             .attr("cx", function (data) {
-              return xLinearScale(data[currentAxisLabelX]);
+              return xLinearScale(usData[currentAxisLabelX]);
             })
             .duration(1800);
         });
